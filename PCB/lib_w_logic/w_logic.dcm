@@ -1,0 +1,219 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 4013
+D Dual D-Type Flip-Flop
+$ENDCMP
+#
+$CMP 4093
+D Quad 2-input NAND Schmitt Trigger, logic symbol
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Porte_logiche/NAND/NXP_HEF4093B.pdf
+$ENDCMP
+#
+$CMP 7400
+D Quad 2-input NAND gate, logic symbol
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Porte_logiche/NAND/NXP_74HC00_74HCT00.pdf
+$ENDCMP
+#
+$CMP 7402
+D Quad 2-input NOR gate, logic symbol
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Porte_logiche/NOR/NXP_74HC02_74HCT02.pdf
+$ENDCMP
+#
+$CMP 7404
+D Hex inverter, logic symbol
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Porte_logiche/NOT/NXP_74HC04_74HCT04.pdf
+$ENDCMP
+#
+$CMP 7407
+D Hex buffers/drivers, logic symbol
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Buffer/TI_74LS07.pdf
+$ENDCMP
+#
+$CMP 7408
+D Quad 2-input AND gate, logic symbol
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Porte_logiche/AND/NXP_74HC08_74HCT08.pdf
+$ENDCMP
+#
+$CMP 7410
+D Triple 3-input NAND gate, logic symbol
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Porte_logiche/NAND/NSC_74LS10.pdf
+$ENDCMP
+#
+$CMP 7411
+D Triple 3-input AND gate, logic symbol
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Porte_logiche/AND/NSC_74LS11.pdf
+$ENDCMP
+#
+$CMP 7413
+D Dual 4-input NAND Schmitt-Trigger gate, logic symbol
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Porte_logiche/NAND/NSC_74LS13.pdf
+$ENDCMP
+#
+$CMP 7414
+D Hex inverter Schmitt-Trigger, logic symbol
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Buffer/NSC_74LS14.pdf
+$ENDCMP
+#
+$CMP 7420
+D Dual 4-input NAND gate, logic symbol
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Porte_logiche/NAND/NSC_74LS20.pdf
+$ENDCMP
+#
+$CMP 7421
+D Dual 4-input AND gate, logic symbol
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Porte_logiche/AND/NSC_74LS21.pdf
+$ENDCMP
+#
+$CMP 74266
+D Quad 2-input X-NOR gate, logic symbol
+$ENDCMP
+#
+$CMP 7427
+D Triple 3-input NOR gate, logic symbol
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Porte_logiche/NOR/NSC_74LS27.pdf
+$ENDCMP
+#
+$CMP 7430
+D 8-input NAND gate, logic symbol
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Porte_logiche/NAND/NSC_74LS30.pdf
+$ENDCMP
+#
+$CMP 7432
+D Quad 2-input OR gate, logic symbol
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Porte_logiche/OR/NXP_74HC32_74HCT32.pdf
+$ENDCMP
+#
+$CMP 744049
+D Hex Buffers, Inverting, logic symbol
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Buffer/TI_CD74HC4050.pdf
+$ENDCMP
+#
+$CMP 744050
+D Hex Buffers, Non-inverting, logic symbol
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Buffer/TI_CD74HC4050.pdf
+$ENDCMP
+#
+$CMP 7474
+D Dual D-type flip-flop with Set and Reset; positive edge trigger
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Flip-Flop/NXP_74HC-HCT74.pdf
+$ENDCMP
+#
+$CMP 74HC08
+D quad 2-input AND gate
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Porte_logiche/AND/NXP_74HC08_74HCT08.pdf
+$ENDCMP
+#
+$CMP 74HC138
+D 3-to-8 line inverting decoder/demultiplexer
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Registri/NXP_74HC138_74HCT138.pdf
+$ENDCMP
+#
+$CMP 74HC14
+D hex inverting Schmitt trigger
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Registri/NXP_74HC14-HCT14.pdf
+$ENDCMP
+#
+$CMP 74HC194
+D 4-bit bidirectional shift register
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Registri/NXP_74HC194_74HCT194.pdf
+$ENDCMP
+#
+$CMP 74HC238
+D 3-to-8 line decoder/demultiplexer
+$ENDCMP
+#
+$CMP 74HC244
+D Octal buffer/line driver, 3-state
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Buffer/NXP_74HC244_74HCT244.pdf
+$ENDCMP
+#
+$CMP 74HC245
+D Octal BUS Transceivers
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Buffer/NXP_74HC245-HCT245.pdf
+$ENDCMP
+#
+$CMP 74HC4049
+D Hex Buffers, Inverting
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Buffer/TI_CD74HC4050.pdf
+$ENDCMP
+#
+$CMP 74HC4050
+D Hex Buffers, Non-inverting
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Buffer/TI_CD74HC4050.pdf
+$ENDCMP
+#
+$CMP 74HC4051
+D 8 channel mux-demux
+F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Buffer/TI_CD4051-4052-4053.pdf
+$ENDCMP
+#
+$CMP 74HC4066
+D quad bilateral switches
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Analog_switch/NXP_74HC4066_74HCT4066.pdf
+$ENDCMP
+#
+$CMP 74HC4094
+D 8 stage shift and store bus register
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Registri/NXP_74HC4094.pdf
+$ENDCMP
+#
+$CMP 74HC540
+D inverting octal 3-state buffer
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Buffer/NXP_74HC540-HCT540.pdf
+$ENDCMP
+#
+$CMP 74HC574
+D octal d-type flip-flop, 3-state out
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Flip-Flop/NXP_74HC574-HCT574.pdf
+$ENDCMP
+#
+$CMP 74HC640
+D octal inverting bus transceivers, 3-state out
+$ENDCMP
+#
+$CMP 74LS42
+D 4-line BCD to 10-line decimal decoder
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Buffer/TI_74LS42.pdf
+$ENDCMP
+#
+$CMP M5450
+D 34 bit LED display driver
+F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Drivers/ST_M5450_M5451.pdf
+$ENDCMP
+#
+$CMP MAX7219
+D 7-segments, 8 digits LED display driver
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Drivers/MAX_MAX7219-7221.pdf
+$ENDCMP
+#
+$CMP MAX7221
+D 7-segments, 8 digits LED display driver
+F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Drivers/MAX_MAX7219-7221.pdf
+$ENDCMP
+#
+$CMP NTB0102
+D Dual supply translating transceiver, auto direction sensing, 3-state
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Drivers/NXP_NTB0102.pdf
+$ENDCMP
+#
+$CMP SN74LVC1G06-SOT
+D Single open-drain inverter
+$ENDCMP
+#
+$CMP SN74LVC1G14-SOT
+D Single Schmitt-trigger inverter
+$ENDCMP
+#
+$CMP SN74LVC1G3157
+D Single-Pole Double-Throw Analog Switch
+$ENDCMP
+#
+$CMP SN74LVC1G38-SOT
+D Single 2-input NAND gate
+$ENDCMP
+#
+$CMP SN74LVC1G57
+D Configurable Multiple-Function gate
+$ENDCMP
+#
+#End Doc Library

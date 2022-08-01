@@ -1,9 +1,9 @@
 [submodule "keebio-components"]
-	path = keebio-components
+	path = PCB/keebio-components
 	url = https://github.com/keebio/keebio-components
 [submodule "Keebio-Parts.pretty"]
-	path = Keebio-Parts.pretty
+	path = PCB/Keebio-Parts.pretty
 	url = https://github.com/keebio/Keebio-Parts.pretty
 [submodule "kicad_lib_tmk"]
-	path = kicad_lib_tmk
+	path = PCB/kicad_lib_tmk
 	url = https://github.com/tmk/kicad_lib_tmk

@@ -1,52 +1,22 @@
-# Prerequisites
-*.d
+# Folder view configuration files
+.DS_Store
+Desktop.ini
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Thumbnail cache files
+._*
+Thumbs.db
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
 
-# Precompiled Headers
-*.gch
-*.pch
+# Compiled Python files
+*.pyc
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
+# Compiled C++ files
 *.out
-*.app
-*.i*86
-*.x86_64
-*.hex
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Application specific files
+venv
+node_modules
+.sass-cache

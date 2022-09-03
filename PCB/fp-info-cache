@@ -1,4 +1,4 @@
-20539105509047195
+20542451516642532
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -449,6 +449,20 @@ Cherry MX keyswitch 6.25u PCB
 2
 Button_Switch_Keyboard
 SW_Cherry_MX_ISOEnter_PCB
+Cherry MX keyswitch, ISO Enter, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch ISO enter PCB
+0
+2
+2
+Button_Switch_Keyboard
+SW_Cherry_MX_ISOEnter_PCB_Flipped
+Cherry MX keyswitch, ISO Enter, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch ISO enter PCB
+0
+2
+2
+Button_Switch_Keyboard
+SW_Cherry_MX_ISOEnter_PCB_Flipped_Rotated
 Cherry MX keyswitch, ISO Enter, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
 Cherry MX keyswitch ISO enter PCB
 0

@@ -78,7 +78,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 109caac1-5036-4f23-9a66-f569d871501b)
-    (at 245.9125 69.2375)
+    (at 239.9725 68.2825)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -101,7 +101,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 19b0959e-a79b-43b2-a5ad-525ced7e9131)
-    (at 112.2025 69.2375)
+    (at 106.2625 68.2825)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -124,7 +124,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 31540a7e-dc9e-4e4d-96b1-dab15efa5f4b)
-    (at 124.1325 82.1775)
+    (at 118.1925 81.2225)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -147,7 +147,7 @@
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp e67b9f8c-019b-4145-98a4-96545f6bb128)
-    (at 232.7525 82.13)
+    (at 226.8125 81.175)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -168,25 +168,25 @@
     (pad "" np_thru_hole circle locked (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask) (tstamp c7b22ffe-83dc-4471-b115-9be24da07fb5))
   )
 
-  (gr_line (start 254.24 67.805) (end 254.24 84.5175) (layer "Edge.Cuts") (width 0.15) (tstamp 0cc45b5b-96b3-4284-9cae-a3a9e324a916))
-  (gr_line (start 249.465 89.2925) (end 41.7525 89.2925) (layer "Edge.Cuts") (width 0.15) (tstamp 1f8b2c0c-b042-4e2e-80f6-4959a27b238f))
-  (gr_arc (start 249.465 63.03) (mid 252.841435 64.428565) (end 254.24 67.805) (layer "Edge.Cuts") (width 0.15) (tstamp 4a850cb6-bb24-4274-a902-e49f34f0a0e3))
-  (gr_line (start 36.9775 84.5175) (end 36.9775 67.805) (layer "Edge.Cuts") (width 0.15) (tstamp 6b7c1048-12b6-46b2-b762-fa3ad30472dd))
-  (gr_line (start 41.7525 63.03) (end 249.465 63.03) (layer "Edge.Cuts") (width 0.15) (tstamp 8c1605f9-6c91-4701-96bf-e753661d5e23))
-  (gr_arc (start 41.7525 89.2925) (mid 38.376065 87.893935) (end 36.9775 84.5175) (layer "Edge.Cuts") (width 0.15) (tstamp e5203297-b913-4288-a576-12a92185cb52))
-  (gr_arc (start 254.24 84.5175) (mid 252.841435 87.893935) (end 249.465 89.2925) (layer "Edge.Cuts") (width 0.15) (tstamp f1447ad6-651c-45be-a2d6-33bddf672c2c))
-  (gr_arc (start 36.9775 67.805) (mid 38.376065 64.428565) (end 41.7525 63.03) (layer "Edge.Cuts") (width 0.15) (tstamp f6c644f4-3036-41a6-9e14-2c08c079c6cd))
+  (gr_line (start 248.3 66.85) (end 248.3 83.5625) (layer "Edge.Cuts") (width 0.15) (tstamp 0cc45b5b-96b3-4284-9cae-a3a9e324a916))
+  (gr_line (start 243.525 88.3375) (end 28.65 88.3375) (layer "Edge.Cuts") (width 0.15) (tstamp 1f8b2c0c-b042-4e2e-80f6-4959a27b238f))
+  (gr_arc (start 28.65 88.3375) (mid 25.273565 86.938935) (end 23.875 83.5625) (layer "Edge.Cuts") (width 0.1) (tstamp 41cd091d-6410-4c0a-b273-1a0100005cab))
+  (gr_arc (start 243.525 62.075) (mid 246.901435 63.473565) (end 248.3 66.85) (layer "Edge.Cuts") (width 0.15) (tstamp 4a850cb6-bb24-4274-a902-e49f34f0a0e3))
+  (gr_line (start 23.875 83.5625) (end 23.875 66.85) (layer "Edge.Cuts") (width 0.15) (tstamp 6b7c1048-12b6-46b2-b762-fa3ad30472dd))
+  (gr_line (start 28.65 62.075) (end 243.525 62.075) (layer "Edge.Cuts") (width 0.15) (tstamp 8c1605f9-6c91-4701-96bf-e753661d5e23))
+  (gr_arc (start 23.875 66.85) (mid 25.273565 63.473565) (end 28.65 62.075) (layer "Edge.Cuts") (width 0.1) (tstamp e58a7eb3-037c-4a74-aecd-96a5df6a265b))
+  (gr_arc (start 248.3 83.5625) (mid 246.901435 86.938935) (end 243.525 88.3375) (layer "Edge.Cuts") (width 0.15) (tstamp f1447ad6-651c-45be-a2d6-33bddf672c2c))
 
-  (group "" (id 700e8b73-5976-423f-a3f3-ab3d9f3e9760)
+  (group "" (id 7d7ec822-99a2-413c-80ac-45c8fb6940a4)
     (members
       0cc45b5b-96b3-4284-9cae-a3a9e324a916
       1f8b2c0c-b042-4e2e-80f6-4959a27b238f
+      41cd091d-6410-4c0a-b273-1a0100005cab
       4a850cb6-bb24-4274-a902-e49f34f0a0e3
       6b7c1048-12b6-46b2-b762-fa3ad30472dd
       8c1605f9-6c91-4701-96bf-e753661d5e23
-      e5203297-b913-4288-a576-12a92185cb52
+      e58a7eb3-037c-4a74-aecd-96a5df6a265b
       f1447ad6-651c-45be-a2d6-33bddf672c2c
-      f6c644f4-3036-41a6-9e14-2c08c079c6cd
     )
   )
 )

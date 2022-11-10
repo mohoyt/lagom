@@ -19,36 +19,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "config_common.h"
 
-#define VENDOR_ID       0x1729
-#define PRODUCT_ID      0x5656
-#define DEVICE_VER      0x0001
-#define MANUFACTURER    mohoyt
-#define PRODUCT         lagom
-
 /* key matrix size */
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 16
 #define MATRIX_MUX_COLS 4
 
-/*
- * Keyboard Matrix Assignments
- *
- * Change this to how you wired your keyboard
- * COLS: AVR pins used for columns, left to right
- * ROWS: AVR pins used for rows, top to bottom
- * DIODE_DIRECTION: COL2ROW = COL = Anode (+), ROW = Cathode (-, marked on diode)
- *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
- *
- */
-
 /*                        0   1   2   3   4   5   6   7   8   9  10  11*/
 #define MATRIX_ROW_PINS { B6, B2, B3, B1, F7 }
 #define MATRIX_COL_PINS { }
 #define MATRIX_COL_MUX_PINS { D7, E6, B4, B5 }
-#define UNUSED_PINS
 
 /* There's a custom matrix with a demux so no ROW2COL or COL2ROW! */
-//#define DIODE_DIRECTION ROW2COL
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5
@@ -65,11 +46,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define LOCKING_SUPPORT_ENABLE
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
-
-/* This is with the 2 encoder setup, change this if there is an OLED */
-#define ENCODERS_PAD_A { D4, F4 }
-#define ENCODERS_PAD_B { C6, F5 }
-#define ENCODER_RESOLUTION 4
 
 /*
  * Feature disable options

@@ -4,7 +4,7 @@ Lagom is an easy to build 65%ish keyboard using only through hole components. It
 
 * Keyboard Maintainer: [mohoyt](https://github.com/mohoyt)
 * Hardware Supported: lagom, Pro Micro, Elite-C, Puchi-C, Nice!Nano and more...
-* Hardware Availability: [GitHub](https://github.com/mohoyt/lagom)
+* Hardware Availability: [sthlm kb](https://sthlmkb.com)
 
 Make example for this keyboard (after setting up your build environment):
 

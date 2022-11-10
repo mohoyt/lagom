@@ -1,7 +1,25 @@
 {
+    "manufacturer": "STHLM kb",
     "keyboard_name": "lagom",
     "url": "https://github.com/mohoyt/lagom",
     "maintainer": "mohoyt",
+    "bootloader": "caterina",
+    "features": {
+         "bootmagic": false,
+         "command": false,
+         "console": false,
+         "extrakey": true,
+         "debug": false,
+         "mousekey": false,
+         "encoder": true,
+         "oled": true
+    },
+    "processor": "atmega32u4",
+    "usb": {
+         "device_version": "1.0.0",
+         "pid": "0x5656",
+         "vid": "0x1729"
+     },
     "layouts": {
         "LAYOUT_base": {
              "layout": [
@@ -376,5 +394,11 @@
                      {"label":"Right", "x":15, "y":4}
                  ]
              }
-        }
+        },
+    "encoder": {
+        "rotary": [
+            { "pin_a": "D4", "pin_b": "D2", "resolution": 4 },
+            { "pin_a": "C6", "pin_b": "F5", "resolution": 4 }
+        ]
+    }
     }

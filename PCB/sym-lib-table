@@ -3,4 +3,5 @@
   (lib (name "keyboard_parts")(type "Legacy")(uri "${KIPRJMOD}/kicad_lib_tmk/keyboard_parts.lib")(options "")(descr ""))
   (lib (name "mkl27z256vfm4")(type "Legacy")(uri "${KIPRJMOD}/kicad_lib_tmk/mkl27z256vfm4.lib")(options "")(descr ""))
   (lib (name "w_logic")(type "Legacy")(uri "${KIPRJMOD}/lib_w_logic/w_logic.lib")(options "")(descr ""))
+  (lib (name "rp2040-zero")(type "KiCad")(uri "/Users/moseshoyt/Downloads/rp2040-zero.kicad_sym")(options "")(descr ""))
 )

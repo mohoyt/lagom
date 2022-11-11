@@ -3,7 +3,7 @@
     "keyboard_name": "lagom",
     "url": "https://github.com/mohoyt/lagom",
     "maintainer": "mohoyt",
-    "bootloader": "caterina",
+    "development_board": "promicro",
     "features": {
          "bootmagic": false,
          "command": false,
@@ -14,7 +14,6 @@
          "encoder": true,
          "oled": true
     },
-    "processor": "atmega32u4",
     "usb": {
          "device_version": "1.0.0",
          "pid": "0x5656",

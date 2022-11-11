@@ -30,33 +30,3 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_LSFT,          KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT, KC_UP,   KC_PGDN,
     KC_LCTL, KC_LGUI, KC_LALT,                            KC_SPC,                             KC_RALT, KC_RCTL, KC_LEFT, KC_DOWN, KC_RGHT )
 };
-
-/* The encoder_update_user is a function.
- * It'll be called by QMK every time you turn the encoder.
- *
- * The index parameter tells you which encoder was turned. If you only have
- * one encoder, the index will always be zero.
- *
- * The clockwise parameter tells you the direction of the encoder. It'll be
- * true when you turned the encoder clockwise, and false otherwise.
- */
-bool encoder_update_user(uint8_t index, bool clockwise) {
-  /* With an if statement we can check which encoder was turned. */
-  if (index == 0) { /* First encoder */
-    /* And with another if statement we can check the direction. */
-    if (clockwise) {
-      tap_code(KC_MPRV);
-    } else {
-      tap_code(KC_MNXT);
-    }
-  /* You can copy the code and change the index for every encoder you have. Most
-     keyboards will only have two, so this piece of code will suffice. */
-  } else if (index == 1) { /* Second encoder */
-     if (clockwise) {
-         tap_code_delay(KC_VOLD, 10);
-     } else {
-         tap_code_delay(KC_VOLU, 10);
-     }
-  }
-  return false;
-}

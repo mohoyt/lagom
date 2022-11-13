@@ -5,6 +5,10 @@ Lagom is an easy to build 65% keyboard using only through hole components. It us
 
 Lagom kits are available for sale at [sthlmkb.com](https://sthlmkb.com/shop/lagom-keyboard-kit/)
 
+[License](LICENSE)
+
+Lagom is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International license](https://creativecommons.org/licenses/by-nc/4.0/). This design as it stands in this repository may be freely reproduced, modified, and manufactured for PERSONAL USE ONLY and may not be reproduced in physical form for public sale. 
+
 ## Features
 * Only through hole components for easy soldering
 * Separate microcontroller using Pro micro, Elite C, Nice! Nano or equivalent footprint. So micro USB, USB-C or Bluetooth are all options!

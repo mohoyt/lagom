@@ -14,4 +14,6 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 Alternatively flash one of the precompiled hexes. There's a few options:
 * One's a standard QMK one with bongocat
-* A [Vial](https://get.vial.today) one is coming soon
+* Another's a Vial image with a WPM graph on it
+
+![wpm graph](../img/wpmhud.jpeg "lagom")

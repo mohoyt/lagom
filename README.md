@@ -3,7 +3,7 @@ Lagom is an easy to build 65% keyboard using only through hole components. It us
 
 ![lagom](img/lagom.jpeg "lagom")
 
-Lagom kits are available for sale at [sthlmkb.com](https://sthlmkb.com)
+Lagom kits are available for sale at [sthlmkb.com](https://sthlmkb.com/shop/lagom-keyboard-kit/)
 
 ## Features
 * Only through hole components for easy soldering

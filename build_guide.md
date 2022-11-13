@@ -1,6 +1,6 @@
 # Lagom build guide
 
-<img src="img/build/lagom.jpeg" alt="lagom" width="500">
+<img src="img/lagom.jpeg" alt="lagom" width="500">
 
 ## Components required 
 
@@ -28,6 +28,16 @@
 * Solder
 * Diode bender (helpful but not required, I used [this one](https://www.printables.com/model/23523-1n4148-diodes-bending-jig))
 * A small amount of electrical tape for the backside of the OLED
+
+## Before you begin!
+
+Please double check everything and that you have all the parts! If you ordered a kit there is a very slim chance we forgot something or that your order is wrong; in the case this is true, please reach out via email at hej at sthlmkb.com and we will work with you to make it right. 
+
+Due to the DIY nature of this hobby, as soon as a soldering iron touches or other modifications happen to the board, I am no longer able to issue a refund/replacement. 
+
+Note about this guide: For this guide, I am building a board with a Pro Micro, 2 encoders and an OLED - yours may differ. You are free to adjust or skip steps if they do not apply to your scenario.
+
+All that being said, let's get started!
 
 ## Step by step
 

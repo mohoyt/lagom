@@ -3,8 +3,8 @@
 
 #define VIAL_KEYBOARD_UID {0x8C, 0x59, 0x2E, 0xF7, 0xBA, 0x40, 0xCC, 0xCA}
 
-#define ENCODERS_PAD_A { D4, F4 }
-#define ENCODERS_PAD_B { C6, F5 }
+#define ENCODERS_PAD_A { C6, F5 }
+#define ENCODERS_PAD_B { D4, F4 }
 
 #define VIAL_COMBO_ENTRIES 2
 #define VIAL_TAP_DANCE_ENTRIES 4

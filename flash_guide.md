@@ -28,7 +28,7 @@ If you’re flashing the controller once it’s already soldered on the keyboard
 
 7. If you’ve successfully connected the pins and then disconnected them you should see a yellow line in the QMK Toolbox console like this. The line might say something slightly different depending on your controller.
 
-<img src="img/flash/7.webp" alt="qmk toolbox screenshot" width="500">
+<img src="img/flash/7.png" alt="qmk toolbox screenshot" width="500">
 
 8. Once you see the yellow line, you need to press Flash within 5 seconds. There will be lots of text rendered on the console when you do this, but it will ultimately say something like avrdude done. Thank you  and then will print another yellow disconnect line if it succeeds.
 

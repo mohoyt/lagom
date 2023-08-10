@@ -66,7 +66,7 @@ All that being said, let's get started!
 
 <img src="img/build/LED_socket.jpeg" alt="led socket" width="500">
 
-9. Flash your controller and check that it is working as expected (e.g. when you plug it into the computer it is recognised as a USB keyboard device). See flashing instructions [here](https://sthlmkb.com/2022/06/flashing-your-microcontroller/).
+9. Flash your controller and check that it is working as expected (e.g. when you plug it into the computer it is recognised as a USB keyboard device). See flashing instructions [here](https://sthlmkb.com/2022/06/flashing-your-microcontroller/) or [here](flash_guide.md).
 10. Solder your controller to the board. The board has offset holes so that hotswapping might work, but this didn't go so great in practice so I just soldered my controller on. You are of course very welcome to socket your controller too if you value switchability. I soldered headers onto my controller and then soldered everything onto the PCB and then trimmed the legs on the underside of the PCB. *Orientation matters* here so ensure that you have the controller in the right position. With a pro micro this is facing down so the USB port is wedged between the Pro Micro and the PCB.
 
 <img src="img/build/lagom_step8.jpeg" alt="testing" width="500">

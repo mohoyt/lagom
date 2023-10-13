@@ -15,17 +15,22 @@ Lagom is licensed under the [Creative Commons Attribution-NonCommercial 4.0 Inte
 * Lagom Base (`lagom_base`) - this is the base of the board and goes below the PCB
 * Lagom Window (`lagom_window`) - this is an optional design for an acrylic window that covers the diodes and the controller
 
+## Some useful images/documentation:
+
 ![lagom layout](../img/layout.png "lagom layout")
 
-## Some useful images/documentation:
+This the key layout and all option layouts exported from keyboard-layout-editor
+
 
 ![lagom matrix](lagom_matrix.png "lagom matrix")
 
 This the layout of the matrix used
 
+
 ![controller pinout](lagom_controller_pinout.png "controller pinout")
 
 This the pinout of the pro micro or pro micro compatible controller
+
 
 ![demux pinout](lagom_demux_pinout.png "demux pinout")
 

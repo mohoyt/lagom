@@ -18,44 +18,44 @@
 #define COL_SHIFTER ((uint32_t)1)
 
 // Column pins
-static const uint8_t row_pins[MATRIX_ROWS] = MATRIX_ROW_PINS;
-static const uint8_t col_pins[MATRIX_MUX_COLS] = MATRIX_COL_MUX_PINS;
+static const pin_t row_pins[MATRIX_ROWS] = MATRIX_ROW_PINS;
+static const pin_t col_pins[MATRIX_MUX_COLS] = MATRIX_COL_MUX_PINS;
 
 // Internal functions
 
 static void init_pins(void) {
     // Set cols to outputs, low
-    for (uint8_t pin = 0; pin < MATRIX_MUX_COLS; pin++) {
+    for (pin_t pin = 0; pin < MATRIX_MUX_COLS; pin++) {
         setPinOutput(col_pins[pin]);
     }
 
     // Unselect cols
-    for (uint8_t bit = 0; bit < MATRIX_MUX_COLS; bit++) {
+    for (pin_t bit = 0; bit < MATRIX_MUX_COLS; bit++) {
         writePinLow(col_pins[bit]);
     }
 
     // Set rows to input, pullup
-    for (uint8_t pin = 0; pin < MATRIX_ROWS; pin++) {
+    for (pin_t pin = 0; pin < MATRIX_ROWS; pin++) {
         setPinInputHigh(row_pins[pin]);
     }
 }
 
-static void select_col(uint8_t col)
+static void select_col(pin_t col)
 {
-    for (uint8_t bit = 0; bit < MATRIX_MUX_COLS; bit++) {
-        uint8_t state = (col & (0b1 << bit)) >> bit;
+    for (pin_t bit = 0; bit < MATRIX_MUX_COLS; bit++) {
+        pin_t state = (col & (0b1 << bit)) >> bit;
         writePin(col_pins[bit], state);
     }
 }
 
-static bool read_rows_on_col(matrix_row_t current_matrix[], uint8_t current_col)
+static bool read_rows_on_col(matrix_row_t current_matrix[], pin_t current_col)
 {
     bool matrix_changed = false;
     select_col(current_col);
     wait_us(5);
 
     // Read each row sequentially
-    for(uint8_t row_index = 0; row_index < MATRIX_ROWS; row_index++)
+    for(pin_t row_index = 0; row_index < MATRIX_ROWS; row_index++)
     {
         matrix_row_t last_row_value = current_matrix[row_index];
 
@@ -87,9 +87,9 @@ bool matrix_scan_custom(matrix_row_t current_matrix[]) {
     bool changed = false;
 
     //Set col, read rows
-    for (uint8_t current_col = 0; current_col < MATRIX_COLS; current_col++) {
+    for (pin_t current_col = 0; current_col < MATRIX_COLS; current_col++) {
         changed |= read_rows_on_col(current_matrix, current_col);
     }
 
-    return (uint8_t)changed;
+    return (pin_t)changed;
 }

@@ -19,3 +19,27 @@ Alternatively flash one of the precompiled hexes. There's a few options:
 * Another's a Vial image with a WPM graph on it
 
 ![wpm graph](../img/wpmhud.jpeg "lagom")
+
+## RGB Lighting
+
+It is possible to add RGB lighting to the Lagom. There's a couple changes that you need to make to info.json to make it happen before recompiling the firmware. These changes are:
+* Adding `"rgblight": true` to the feature section
+* Adding a `rgblight` and `ws2812` section
+```    
+"rgblight": {
+        "led_count": 11,
+        "sleep": true,
+        "hue_steps": 10,
+        "saturation_steps": 10,
+        "brightness_steps": 10,
+        "animations": {
+            "rainbow_mood": true,
+            "static_gradient": true
+        }
+       },
+    "ws2812": {
+        "pin": "F6"
+        }
+```
+* You'll then need to assign some keys to toggle on the RGB and change modes etc. This is easiest done in Vial if you've flashed a Vial compatible image. 
+* Bear in mind that the RGB feature takes up some space so you may run out of space if you're compiling this for a Pro Micro

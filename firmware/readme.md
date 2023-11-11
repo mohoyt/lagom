@@ -24,7 +24,7 @@ Alternatively flash one of the precompiled hexes. There's a few options:
 
 It is possible to add RGB lighting to the Lagom. There's a couple changes that you need to make to info.json to make it happen before recompiling the firmware. These changes are:
 * Adding `"rgblight": true` to the feature section
-* Adding a `rgblight` and `ws2812` section
+* Adding a `rgblight` and `ws2812` section. More info [here](https://docs.qmk.fm/#/feature_rgblight) too.
 ```    
 "rgblight": {
         "led_count": 11,

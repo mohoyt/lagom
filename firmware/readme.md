@@ -20,6 +20,15 @@ Alternatively flash one of the precompiled hexes. There's a few options:
 
 The .hex file is if you're using an Atmel chip (like a traditional Pro Micro). The uf2 files are for a RP2040 style pro micro like the Helios. 
 
+## RP2040 Flashing
+
+If you are compiling your own firmware for a RP2040 variant of a Pro Micro then the easiest way of converting the output from .hex to .uf2 is to use the convert feature of QMK [more details here](https://docs.qmk.fm/#/feature_converters?id=overview). 
+
+For example you would flash one with a Helios style pin out like this:
+```
+make sthlmkb/lagom:vial-wpmhud CONVERT_TO=helios
+```
+
 ![wpm graph](../img/wpmhud.jpeg "lagom")
 
 ## RGB Lighting

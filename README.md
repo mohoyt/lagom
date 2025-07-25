@@ -46,6 +46,11 @@ Lagom is licensed under the [Creative Commons Attribution-NonCommercial 4.0 Inte
 
 ![lagom](img/lagom.png "lagom pcb")
 
+## Dimensions
+* PCB: 305.6mm x 121.78mm
+* Plate: 319.925mm x 128.925mm (102.662mm height at the lower section)
+* Base: 319.925mm x 128.925mm 
+
 ## Known issues 
 None yet! 
 
